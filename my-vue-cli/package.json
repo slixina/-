@@ -1,0 +1,23 @@
+{
+  "name": "my-vue-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --open",
+    "build": "webpack --mode production --progress --hide-modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
